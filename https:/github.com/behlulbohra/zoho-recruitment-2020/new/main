@@ -1,0 +1,38 @@
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <stdio.h>
+
+int main()
+{
+    int x=1,l,m;
+    
+    
+    for(l=1;l<5;l++)
+    {
+        switch(l)
+        {
+        case 1 :
+            printf("    1 2 3 4\n");
+            
+            break;
+         case 2 :
+            printf("  8 7 6 5\n");
+            break;
+        case 3 :
+            printf(" 9 10 11 12\n");
+            break;
+        case 4 :
+            printf("16 15 14 13\n");
+            break;
+   }
+   
+    }
+
+    return 0;
+}
